@@ -3,7 +3,7 @@ SpringBoot - Desafio Tres
 
 ## Iniciar Spring-Boot ##
 
-* mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=src\main\resources\lib\Generador_Datos_Desafio_Tres-1.0.0.jar
+* mvnw org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=src\main\resources\lib\Generador_Datos_Desafio_Tres-1.0.0.jar
 
 * mvnw clean spring-boot:run
 
@@ -152,9 +152,6 @@ Ejemplo
       "fecha":"2014-01-09",
       "dato":"23.336,59"
     },
-
-        :
-
     {
       "fecha":"2014-04-01",
       "dato":"23.610,77"
